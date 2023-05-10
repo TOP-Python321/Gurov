@@ -3,6 +3,7 @@ num_1 = input('Введите второе число: ')
 num_2 = input('Введите третье число: ')
 summa_positiv = 0
 
+
 # ИСПРАВИТЬ: две проверки избыточны, поскольку у вас нет особого требования работать с int объектами — достаточно только второй проверки
 
 # КОММЕНТАРИЙ: метод replace() вернёт исходную строку, если не найдёт в ней переданную подстроку
@@ -14,7 +15,7 @@ if num_1.replace('.', '', 1).isdecimal():
     summa_positiv += float(num_1)
 
 
-if num_2.replace('.', '', 1).isdecimal():
+if num_2.replace('.','',1).isdecimal():
     summa_positiv += float(num_2)
 
 print(f'{summa_positiv:.1f}')

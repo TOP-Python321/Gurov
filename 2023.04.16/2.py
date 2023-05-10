@@ -26,6 +26,10 @@ if num.isdecimal() and num_1.isdecimal():
 else:
     print('Ошибка, ввод')
 
+  
+
+
+
 
 # Введите первое число: 40
 # Введите второе число: 4
