@@ -14,3 +14,6 @@ for num1 in range(1, num + 1):
         break
         
 print(sum_num)
+
+# Введите число: 50
+# 93
